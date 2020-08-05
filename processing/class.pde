@@ -76,7 +76,7 @@ class Game {
         textSize(40);
         textAlign(CENTER, CENTER);
         fill(0);
-        text("Loaded...", width/2, height/16*13);
+        text("Loading...", width/2, height/16*13);
         
         noStroke();
         rectMode(CENTER);
