@@ -285,7 +285,6 @@ function Game() {
 
     function drawCurrentTitle() {
         drawTitle();
-
     }
 
     function drawTitle() {
