@@ -456,7 +456,7 @@ class Game {
     }
 
     // ボールが壁に当たった時のバウンドの処理
-    provate void changeDirection(int i) {
+    private void changeDirection(int i) {
         if (ballXs[i] < ballDiameter[i]/ 2 || ballXs[i] > width - ballDiameter[i] / 2) {
             stepXs[i] *= -1;
         }
